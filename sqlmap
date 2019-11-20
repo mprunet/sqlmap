@@ -1,0 +1,3 @@
+#!/bin/bash
+docker run -it --rm -v /tmp/.sqlmap:/root/.sqlmap:rw safepic/sqlmap:1.3.11 "$@"
+ 
