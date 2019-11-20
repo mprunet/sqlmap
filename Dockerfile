@@ -1,6 +1,6 @@
 FROM alpine
 LABEL maintainer "contact@ilyaglotov.com"
-ARG version
+ARG version=1.3.11
 
 RUN apk update \
   && apk add --no-cache python git \
